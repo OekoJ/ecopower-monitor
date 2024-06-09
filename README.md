@@ -6,4 +6,5 @@ Als weiteres Ökostrom-Anzeige-Projekt ergänzend zum Projekt https://github.com
 
 So sieht die Anzeige im Einsatz aus:
 
-![animated gif](ecopower-screenshots-animated.gif "Ökostrom-Monitor")
+| ![animated gif](ecopower-screenshots-animated.gif "Ökostrom-Monitor") |
+|-|
