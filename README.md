@@ -4,7 +4,7 @@ In dem Projekt [Ökostrom-Anzeige](https://ecomakerspace.de/oekostrom/) dessen C
 
 Um das Projekt zu realisieren, habe ich auf ein zweifarbiges eInk-Display zurück gegriffen, das noch in meiner Schublade lag. Es ist das [Inky pHat Display](http://pimoroni.com/inkyphat) von Pimoroni, für das ich schon länger eine sinnvolle Anwendung gesucht habe. Der Code ist für das Display mit einer Auflösung von 212 x 104 geschrieben und muss angepasst werden, wenn man ein (neueres) Display mit einer höheren Auflösung verwendet. Das eInk-Display ist an einen Raspberry Pi Zero WH angeschlossen.
 
-So sieht die Anzeige im Einsatz aus:
+So sieht die Anzeige im Zeitraffer über den Zeitraum 1 Woche aus:
 
 | ![animated gif](ecopower-screenshots-animated.gif "Ökostrom-Monitor") |
 |-|
