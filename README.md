@@ -9,6 +9,8 @@ So sieht die Anzeige im Zeitraffer über den Zeitraum 1 Woche aus:
 | ![animated gif](ecopower-screenshots-animated.gif "Ökostrom-Monitor") |
 |-|
 
+Die untere Kurve (helle Fläche) zeigt den Anteil an Ökostrom aus Biomasse. Die mittlere Kurve (etwas dunkler) stellt den Strom aus Windkraftanlagen dar. Und die rote Fläche oben den Solarstrom aus Photovoltaik-Anlagen, der sein Maximum mittags erreicht, wenn die Sonne am stärksten scheint.
+
 ## Installation
 
 Zunächst muss die python-Library des Displays installiert werden (https://github.com/pimoroni/inky).
