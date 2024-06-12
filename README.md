@@ -9,7 +9,7 @@ So sieht die Anzeige im Zeitraffer über den Zeitraum 1 Woche aus:
 | ![animated gif](ecopower-screenshots-animated.gif "Ökostrom-Monitor") |
 |-|
 
-Die untere Kurve (helle Fläche) zeigt den Anteil an Ökostrom aus Biomasse. Die mittlere Kurve (etwas dunkler) stellt den Strom aus Windkraftanlagen dar. Und die rote Fläche oben den Solarstrom aus Photovoltaik-Anlagen, der sein Maximum mittags erreicht, wenn die Sonne am stärksten scheint.
+Die x-Achse ist der Tagesverlauf von 0 Uhr bis 24 Uhr. Die y-Achse ist bei 12 Uhr eingezeichnet und zeigt den Ökostrom-Anteil von 0 bis 100%. Die untere Kurve (helle Fläche) stellt den Anteil an Ökostrom aus Biomasse dar. Die mittlere Kurve (etwas dunkler) zeigt den Strom aus Windkraftanlagen an. Und die rote Fläche oben den Solarstrom aus Photovoltaik-Anlagen, der sein Maximum am frühen NAchmittag erreicht, wenn die Sonne am stärksten scheint.
 
 ## Installation
 
