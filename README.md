@@ -4,12 +4,12 @@ In dem Projekt [Ökostrom-Anzeige](https://ecomakerspace.de/oekostrom/) dessen C
 
 Um das Projekt zu realisieren, habe ich auf ein zweifarbiges eInk-Display zurück gegriffen, das noch in meiner Schublade lag. Es ist das [Inky pHat Display](http://pimoroni.com/inkyphat) von Pimoroni, für das ich schon länger eine sinnvolle Anwendung gesucht habe. Der Code ist für das Display mit einer Auflösung von 212 x 104 geschrieben und muss angepasst werden, wenn man ein (neueres) Display mit einer höheren Auflösung verwendet. Das eInk-Display ist an einen Raspberry Pi Zero WH angeschlossen.
 
-So sieht die Anzeige im Zeitraffer über den Zeitraum 1 Woche aus:
+So sieht die Anzeige im Zeitraffer über den Zeitraum einer Woche aus:
 
 | ![animated gif](ecopower-screenshots-animated.gif "Ökostrom-Monitor") |
 |-|
 
-Die x-Achse ist der Tagesverlauf von 0 Uhr bis 24 Uhr. Die y-Achse ist bei 12 Uhr eingezeichnet und zeigt den Ökostrom-Anteil von 0 bis 100%. Die untere Kurve (helle Fläche) stellt den Anteil an Ökostrom aus Biomasse dar. Die mittlere Kurve (etwas dunkler) zeigt den Strom aus Windkraftanlagen an. Und die rote Fläche oben den Solarstrom aus Photovoltaik-Anlagen, der sein Maximum am frühen NAchmittag erreicht, wenn die Sonne am stärksten scheint.
+Die x-Achse ist der Tagesverlauf von 0 Uhr bis 24 Uhr. Die y-Achse ist bei 12 Uhr eingezeichnet und zeigt den Ökostrom-Anteil von 0 bis 100%. Die untere Kurve (helle Fläche) stellt den Anteil an Ökostrom aus Biomasse dar. Die mittlere Kurve (etwas dunkler) zeigt den Strom aus Windkraftanlagen an. Und die rote Fläche (oben) den Solarstrom aus Photovoltaik-Anlagen, der sein Maximum am frühen Nachmittag erreicht, wenn die Sonne am stärksten scheint.
 
 ## Installation
 
