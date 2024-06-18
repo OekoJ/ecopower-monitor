@@ -2,6 +2,8 @@
 
 In dem Projekt [Ökostrom-Anzeige](https://ecomakerspace.de/oekostrom/) dessen Code unter https://github.com/OekoJ/ecopower zu finden ist, habe ich bereits ein analoges Anzeigegerät vorgestellt, das jeweils den aktuellen Anteil an Ökostrom im deutschen Stromnetz anzeigt. Der Anzeiger dient dazu, den Fortschritt der Energiewende sichtbar zu machen und nach Möglichkeit seinen eigenen Stromverbrauch am aktuellen Ökostrom-Anteil auszurichten. Das Projekt um das es jetzt gehen soll, ist ein bisschen technischer und richtet sich an Leute, die gerne Kurvendiagramme lesen. Mit dem hier vorgestellten Ökostrom-Tagesverlaufs-Monitor wird der bereits erzeugte und für die nächsten Stunden erwartete Anteil an Ökostrom im Stromnetz als Kurve dargestellt. Ein Zeiger zeigt auf die aktuellen Werte. Die Werte stammen vom Fraunhofer Institut für Solare Energiesysteme (ISE) und werden zirka stündlich aktualisiert.
 
+<img src="ecopower-monitor.jpg" width="250" height="auto" title="Foto des Ökostrom-Monitors">
+
 Um das Projekt zu realisieren, habe ich auf ein zweifarbiges eInk-Display zurück gegriffen, das noch in meiner Schublade lag. Es ist das [Inky pHat Display](http://pimoroni.com/inkyphat) von Pimoroni, für das ich schon länger eine sinnvolle Anwendung gesucht habe. Der Code ist für das Display mit einer Auflösung von 212 x 104 geschrieben und muss angepasst werden, wenn man ein (neueres) Display mit einer höheren Auflösung verwendet. Das eInk-Display ist an einen Raspberry Pi Zero WH angeschlossen.
 
 So sieht die Anzeige im Zeitraffer über den Zeitraum einer Woche aus:
