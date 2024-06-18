@@ -11,6 +11,8 @@ So sieht die Anzeige im Zeitraffer über den Zeitraum einer Woche aus:
 
 Die x-Achse ist der Tagesverlauf von 0 Uhr bis 24 Uhr. Die y-Achse ist bei 12 Uhr eingezeichnet und zeigt den Ökostrom-Anteil von 0 bis 100%. Die untere Kurve (helle Fläche) stellt den Anteil an Ökostrom aus Biomasse dar. Die mittlere Kurve (etwas dunkler) zeigt den Strom aus Windkraftanlagen an. Und die rote Fläche (oben) den Solarstrom aus Photovoltaik-Anlagen, der sein Maximum am frühen Nachmittag erreicht, wenn die Sonne am stärksten scheint.
 
+Wenn keine Daten verfügbar sind, wird statt der Ökostrom-Kurve ein Bildschirmschoner (Datei:out_of_range.png) angezeigt. Im animierten Beispiel oben, am Dienstag zwischen 0 und 6 Uhr.
+
 ## Installation
 
 Zunächst muss die python-Library des Displays installiert werden (https://github.com/pimoroni/inky).
