@@ -116,13 +116,13 @@ if timestamp_now <= timestamp_last_jsonValue:
             break
         # add missing values (if not present)
         if (i+offset) >= len(jsonValues['ren_share']):
-            jsonValues['ren_share'] += [1]
+            jsonValues['ren_share'] += [0]
         if (i+offset) >= len(jsonValues['solar_share']):
-            jsonValues['solar_share'] += [1]
+            jsonValues['solar_share'] += [0]
         if (i+offset) >= len(jsonValues['wind_onshore_share']):
-            jsonValues['wind_onshore_share'] += [1]
+            jsonValues['wind_onshore_share'] += [0]
         if (i+offset) >= len(jsonValues['wind_offshore_share']):
-            jsonValues['wind_offshore_share'] += [1]
+            jsonValues['wind_offshore_share'] += [0]
 
         othersY = round(jsonValues['ren_share'][i+offset] - jsonValues['solar_share'][i+offset] - jsonValues['wind_onshore_share'][i+offset] - jsonValues['wind_offshore_share'][i+offset])
         others += [(x, maxY - faktorY * othersY)]
